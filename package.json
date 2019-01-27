@@ -1,0 +1,21 @@
+{
+    "name": "intellij-ish-darcula-theme",
+    "displayName": "IntelliJ-ish Darcula Theme",
+    "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDEs.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "IntelliJ-ish Darcula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/IntelliJ-ish Darcula-color-theme.json"
+            }
+        ]
+    }
+}
