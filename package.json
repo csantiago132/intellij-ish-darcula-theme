@@ -2,12 +2,13 @@
   "name": "intellij-ish-darcula-theme",
   "displayName": "IntelliJ-ish Darcula Theme",
   "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDE's.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csantiago132/intellij-ish-darcula-theme.git"
   },
   "author": "Carlos Santiago",
+  "publisher": "csantiago132",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/csantiago132/intellij-ish-darcula-theme/issues"
@@ -15,7 +16,7 @@
   "engines": {
     "vscode": "^1.30.0"
   },
-  "icon": "./public/icon/theme-icon.png",
+  "icon": "theme-icon.png",
   "categories": ["Themes"],
   "contributes": {
     "themes": [
@@ -27,6 +28,7 @@
     ]
   },
   "scripts": {
+    "publish": "vsce package && vsce publish",
     "prettier:js": "./node_modules/.bin/prettier --config .prettierrc --write *.{js, jsx}",
     "prettier:tsx": "./node_modules/.bin/prettier --config .prettierrc --write *.{tsx, ts}",
     "prettier:json": "./node_modules/.bin/prettier --config .prettierrc  --write *.json",

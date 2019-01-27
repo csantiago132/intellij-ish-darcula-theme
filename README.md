@@ -12,7 +12,7 @@ issues; lack of contrast with some colors like green and purple, sidebar content
 was distracting due to the names of the files and directories were too bright,
 integrated terminal was not as I would like it & 20 more things not worth
 listing. Overall, this is an effort to create a more pleasant, integrated
-experience with VSCode for those, like m,e, love the darcula theme from the
+experience with VSCode for those, like me, love the darcula theme from the
 IntelliJ IDE's.
 
 ## Issues and Feedback
