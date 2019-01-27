@@ -1,21 +1,56 @@
 {
-    "name": "intellij-ish-darcula-theme",
-    "displayName": "IntelliJ-ish Darcula Theme",
-    "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDEs.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "IntelliJ-ish Darcula",
-                "uiTheme": "vs-dark",
-                "path": "./themes/IntelliJ-ish Darcula-color-theme.json"
-            }
-        ]
+  "name": "intellij-ish-darcula-theme",
+  "displayName": "IntelliJ-ish Darcula Theme",
+  "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDE's.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csantiago132/intellij-ish-darcula-theme.git"
+  },
+  "author": "Carlos Santiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csantiago132/intellij-ish-darcula-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "icon": "./public/icon/theme-icon.png",
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "IntelliJ-ish Darcula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/IntelliJ-ish Darcula-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "prettier:js": "./node_modules/.bin/prettier --config .prettierrc --write *.{js, jsx}",
+    "prettier:tsx": "./node_modules/.bin/prettier --config .prettierrc --write *.{tsx, ts}",
+    "prettier:json": "./node_modules/.bin/prettier --config .prettierrc  --write *.json",
+    "prettier:md": "./node_modules/.bin/prettier --config .prettierrc --print-width 80 --write *.md"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{tsx, ts}": [
+      "yarn run prettier:tsx",
+      "yarn run tslint",
+      "yarn run stylelint:css",
+      "git add"
+    ],
+    "*.json": ["yarn run prettier:json", "git add"],
+    "*.md": ["yarn run prettier:md", "git add"],
+    "*.{jsx, js}": ["yarn run prettier:js", "git add"]
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.16.1"
+  }
 }
