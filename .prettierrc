@@ -1,0 +1,35 @@
+{   
+    "tabWidth": 2,
+    "printWidth": 80,
+    "parser": "typescript",
+    "semi": true,
+    "trailingComma": "none",
+    "singleQuote": false,
+    "jsxBracketSameLine": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "overrides": [
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "babylon",
+                "semi": true,
+                "singleQuote": false
+            }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "parser": "markdown",
+                "printWidth": 80,
+                "proseWrap": "always"
+            }
+        },
+        {
+            "files": "*.json",
+            "options": {
+                "parser": "json"
+            }
+        }
+    ]
+}
