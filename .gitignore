@@ -1,5 +1,6 @@
 ### Binary file of extension
 *.vsix
+*.0.[0-9].vsix
 
 ### dependencies
 /node_modules
