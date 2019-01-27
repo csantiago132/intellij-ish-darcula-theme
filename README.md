@@ -35,19 +35,19 @@ can also fill out an issue on
 
 ##### Peek File
 
-![Peek File](./public/images/integrated-terminal.png)
+![Peek File](./public/images/peek-file.png)
 
 ##### SCSS
 
-![SCSS](./public/images/integrated-terminal.png)
+![SCSS](./public/images/scss.png)
 
 ##### Vue
 
-![Vue](./public/images/integrated-terminal.png)
+![Vue](./public/images/vue.png)
 
 ##### Python
 
-![Python](./public/images/integrated-terminal.png)
+![Python](./public/images/python.png)
 
 ## Versioning
 
