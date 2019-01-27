@@ -2,14 +2,16 @@
   "name": "intellij-ish-darcula-theme",
   "displayName": "IntelliJ-ish Darcula Theme",
   "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDE's.",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "publisher": "csantiago132",
+  "author": {
+    "name": "Carlos Santiago"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csantiago132/intellij-ish-darcula-theme.git"
+    "url": "https://github.com/csantiago132/intellij-ish-darcula-theme.git"
   },
-  "author": "Carlos Santiago",
-  "publisher": "csantiago132",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/csantiago132/intellij-ish-darcula-theme/issues"
   },
@@ -26,6 +28,11 @@
         "path": "./themes/IntelliJ-ish Darcula-color-theme.json"
       }
     ]
+  },
+  "keywords": ["intellij-theme", "darcula", "jetbrains ide", "android studio"],
+  "galleryBanner": {
+    "color": "#292B2E",
+    "theme": "dark"
   },
   "scripts": {
     "publish": "vsce package && vsce publish",
