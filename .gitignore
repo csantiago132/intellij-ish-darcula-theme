@@ -1,7 +1,5 @@
-### Docker-related files
-Dockerfile
-docker-compose.prod.yml
-docker-compose.yml
+### Binary file of extension
+*.vsix
 
 ### dependencies
 /node_modules
