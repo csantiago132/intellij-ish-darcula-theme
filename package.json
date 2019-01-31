@@ -2,7 +2,7 @@
   "name": "intellij-ish-darcula-theme",
   "displayName": "IntelliJ-ish Darcula Theme",
   "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDE's.",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "publisher": "csantiago132",
   "author": {
     "name": "Carlos Santiago"

@@ -67,7 +67,8 @@ This project is licensed under the MIT License - see the
 
 ## Acknowledgments
 
-- IntelliJ theme creator (will provide link when I know who the person is)
+- IntelliJ theme creator, Konstantin Bulenkov -
+  [Twitter](https://twitter.com/bulenkov)
 
 ---
 
