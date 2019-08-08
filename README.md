@@ -1,4 +1,4 @@
-# IntelliJ-ish Darcula Theme EDITED
+# IntelliJ-ish Darcula Theme
 
 A theme extension for Visual Studio Code based on Darcula theme from Jetbrains
 IDE's. This theme is not exactly same with the theme from Jetbrains IDE; I
