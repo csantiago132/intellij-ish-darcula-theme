@@ -27,27 +27,27 @@ can also fill out an issue on
 
 ##### React (with Typescript)
 
-![React with Typescript](./public/images/react-typescript.png)
+![React with Typescript](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/react-typescript.png)
 
 ##### Integrated Terminal
 
-![Integrated Terminal](./public/images/integrated-terminal.png)
+![Integrated Terminal](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/integrated-terminal.png)
 
 ##### Peek File
 
-![Peek File](./public/images/peek-file.png)
+![Peek File](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/peek-file.png)
 
 ##### SCSS
 
-![SCSS](./public/images/scss.png)
+![SCSS](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/scss.png)
 
 ##### Vue
 
-![Vue](./public/images/vue.png)
+![Vue](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/vue.png)
 
 ##### Python
 
-![Python](./public/images/python.png)
+![Python](https://raw.githubusercontent.com/csantiago132/intellij-ish-darcula-theme/develop/public/images/python.png)
 
 ## Versioning
 
